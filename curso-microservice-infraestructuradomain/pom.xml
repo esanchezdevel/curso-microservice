@@ -18,6 +18,7 @@
         <spring-cloud-starter-feign.version>1.4.7.RELEASE</spring-cloud-starter-feign.version>
         <spring-cloud-starter-hystrix.version>1.4.7.RELEASE</spring-cloud-starter-hystrix.version>
         <spring-cloud-stream.version>3.0.7.RELEASE</spring-cloud-stream.version>
+        <spring-boot-admin.version>2.3.4-RELEASE</spring-boot-admin.version>
     </properties>
     
      <!--Allows consolidate and centralized management of deendency version witout adding dependencies
@@ -35,5 +36,6 @@
     </dependencyManagement>
     <modules>
     	<module>curso-microservice-eurekaserver</module>
+    	<module>curso-microservice-adminserver</module>
     </modules>
 </project>
