@@ -7,12 +7,12 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import de.codecentric.boot.admin.server.config.EnableAdminServer;
+//import de.codecentric.boot.admin.server.config.EnableAdminServer;
 
 @SpringBootApplication
 @EnableEurekaClient
 @EnableAutoConfiguration
-@EnableAdminServer
+//@EnableAdminServer
 public class CursoMicroserviceAdminServerApplication {
 
 	public static void main(String[] args) {
